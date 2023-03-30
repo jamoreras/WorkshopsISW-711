@@ -14,19 +14,8 @@ export const getPlayers = async function(){
     return null;
   }
 }
-export const getPrueba2 = async function(){
-  //get all players
-  try {
-    const players = await playerModel.find();
-    if (players) {
-      return players;
-    } else {
-      return null;
-    }
-  } catch (error) {
-    return null;
-  }
-}
+
+
 
 
 export const getPlayer = async function(id){
