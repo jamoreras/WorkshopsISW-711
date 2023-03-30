@@ -1,6 +1,6 @@
 import { playerModel } from "../models/player.model.js";
 //
-
+//comentario
 export const getPlayers = async function(){
   //get all players
   try {
@@ -14,7 +14,7 @@ export const getPlayers = async function(){
     return null;
   }
 }
-export const getPrueba = async function(){
+export const getPrueba2 = async function(){
   //get all players
   try {
     const players = await playerModel.find();
