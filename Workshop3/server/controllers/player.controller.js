@@ -14,7 +14,7 @@ export const getPlayers = async function(){
     return null;
   }
 }
-export const getPrueba2 = async function(){
+export const getPrueba3 = async function(){
   //get all players
   try {
     const players = await playerModel.find();
